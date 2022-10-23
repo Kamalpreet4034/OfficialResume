@@ -1,0 +1,176 @@
+
+body{
+	background-image: linear-gradient(#636162, #b1afaf);
+	height: 122vh;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+*{
+	margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;
+}
+.main{
+	background-color: #EBDEF0;
+	height: auto;
+	width: 650px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 60%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github
+{
+background: #4C16E6;
+color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.left{
+	background-color: #9B59B6;
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+.right{
+	width: 450px;
+	float: left;
+}
+.box-1{
+	position: relative;
+}
+.heading{
+	background-color: #4d4d4d;
+	padding: 10px;
+	color: #9B59B6;
+	text-align: left;
+	padding-left: 20px;
+	margin-right: -15px;
+}
+.heading::after{
+	content: '';
+	position: absolute;
+	width: 21px;
+	height: 18px;
+	background-color: #5a5959;
+	left: 191px;
+	top: 26px;
+	transform:rotate(56deg);
+	z-index: -1;
+}
+.p1{
+	padding: 9px 10px;
+	font-size: 11px;
+}
+.icons1{
+	font-size: 16px!important;
+	padding-right: 10px!important;
+	vertical-align: sub;
+}
+.skill-container{
+	width: 90%;
+	background-color: #4d4d4d;
+	margin: 0px 10px;
+}
+.skill{
+	text-align: right;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	color: white;
+}
+.html{
+	width: 90%;
+	background-color: white;
+}
+.css{
+	width: 80%;
+	background-color: white;
+}
+.js{
+	width: 85%;
+	background-color: white;
+}
+.java{
+	width: 80%;
+	background-color: white;
+}
+.web {
+	width: 85%;
+	background-color: white;
+}
+.content{
+	width: 80%;
+	background-color: white;
+}
+.cpp{
+	width: 95%;
+	background-color: white;
+}
+
+.ppp{
+	width: 97%;
+	background-color: white;
+}
+.ms{
+	width: 80%;
+	background-color: white;
+}
+.graphic{
+	width: 70%;
+	background-color: white;
+}
+
+
+.icons2{
+	padding: 18px 10px;
+}
+.name-div{
+	padding: 86px 0px 60px 55px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.name-div h1{
+	margin-bottom: 10px;
+}
+.box-2{
+	padding: 0px 50px;
+	margin-top: 30px;
+}
+h2{
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.icons3{
+	vertical-align: bottom;
+	font-size: 21px!important;
+	color: #4d4d4d;
+}
+.p2{
+	font-size: 13px;
+	word-spacing: 1px;
+	letter-spacing: 0px;
+	margin-top: 10px;
+}
+.p2 span{
+	color: #9B59B6; padding-left: 20px;
+}
